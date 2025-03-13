@@ -27,12 +27,12 @@ module.exports = async ({ api, event }) => {
       note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false'
     },
     autoDeleteCache: {
-      status: true,
+      status: false,
       time: 10, // 10 minutes
       note: 'auto delete caches, kindly set the status to true, if you dont want to delete caches, set the status to false.'
     },
     autoRestart: {
-      status: true,
+      status: false,
       time: 40, // 40 minutes
       note: 'to avoid problems, enable periodic bot restarts, set the status to false if you want to disable auto restart function.'
     },
